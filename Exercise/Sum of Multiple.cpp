@@ -6,6 +6,7 @@ using namespace std;
 int sumOfMultiple(int num,int limit){
     int n = (limit - 1) / num;
     return num * n * (n + 1) / 2;
+
 }
 
 int main() {
